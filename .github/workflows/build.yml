@@ -6,8 +6,7 @@ env:
   Platform: #Any CPU|Win32|x86|x64 - Check .sln file for available ones
   Configuration: Release
   Artifacts: build/Release/
-  Solution: ${{github.event.repository.name}}.sln # .
-  Executable: ${{github.event.repository.name}}.exe # *
+  Solution: 3DVisionDirectUnity.sln
 
 on:
   push:
@@ -18,7 +17,7 @@ on:
 
 jobs:
   Windows:
-    runs-on: windows-latest
+    runs-on: windows-2019
     steps:
 
     - name: Clone repo and submodules
