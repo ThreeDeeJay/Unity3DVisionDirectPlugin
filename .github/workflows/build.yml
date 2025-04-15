@@ -6,7 +6,7 @@ env:
   Platform: #Any CPU|Win32|x86|x64 - Check .sln file for available ones
   Configuration: Release
 #  Artifacts: x64/Release/3DVisionDirectUnity.dll
-  Artifacts: D:\a\Unity3DVisionDirectPlugin\Unity3DVisionDirectPlugin
+  Artifacts: .
   Solution: 3DVisionDirectUnity.sln
 
 on:
